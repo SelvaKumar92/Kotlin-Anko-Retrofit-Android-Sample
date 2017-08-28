@@ -1,0 +1,171 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/fragment_profile_IMG"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/actionbar_shadow"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/scrolling_background" />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:text="Selvakumar K"
+                        android:textAppearance="?android:textAppearanceMedium"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold|italic" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingBottom="5dp"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:text="Android App developer"
+                        android:textColor="@color/shadow_black"
+                        android:textStyle="italic" />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingBottom="5dp"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:text="I work with startups around the world to turn ideas into beautiful Android apps"
+                        android:textColor="@color/shadow_black"
+                        android:textStyle="italic" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:autoLink="phone"
+                        android:drawablePadding="5dp"
+                        android:gravity="center"
+                        android:text="7305528820"
+                        android:textAppearance="?android:textAppearanceMedium"
+                        android:textColorLink="@color/shadow_black"
+                        android:textStyle="italic" />
+
+                    <ImageView
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:padding="5dp"
+                        android:src="@drawable/ic_perm_phone_msg" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:autoLink="email"
+                        android:gravity="center"
+                        android:text="selva.cse10@gmail.com"
+                        android:textAppearance="?android:textAppearanceMedium"
+                        android:textColorLink="@color/shadow_black"
+                        android:textStyle="italic" />
+
+
+                    <ImageView
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:padding="5dp"
+                        android:src="@drawable/ic_email" />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="web"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="My portfolio android app available in google play store"
+                android:textColor="@color/shadow_black"
+                android:textColorLink="@color/colorPrimaryDark"
+                android:textSize="16sp"
+                android:textStyle="italic" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="web"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="https://play.google.com/store/apps/details?id=com.selvekumar.portfolio"
+                android:textColor="@color/shadow_black"
+                android:textColorLink="@color/Pink"
+                android:textSize="16sp"
+                android:textStyle="italic" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Kindly download &amp; intsall my portfolio App\n I hope you liked my app."
+                android:textColor="@color/shadow_black"
+                android:textSize="16sp"
+                android:textStyle="italic|bold" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>
