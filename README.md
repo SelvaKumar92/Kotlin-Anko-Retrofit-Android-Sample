@@ -14,3 +14,10 @@ Safer: null safe, which give more control and prevent a lot of possible bugs.
 Data Classes: for classes that do nothing but hold data, the compiler automatically derives equals(), hashCode(),toString(), copy() and componentN() functions corresponding to the properties.
 And a lot more.
 For more informations check the Full Kotlin Reference
+
+About Developer
+Selvakumar K
+
+Portfolio App
+
+https://play.google.com/store/apps/details?id=com.selvekumar.portfolio&hl=en
