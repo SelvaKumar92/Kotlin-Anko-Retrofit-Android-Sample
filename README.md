@@ -16,8 +16,9 @@ And a lot more.
 For more informations check the Full Kotlin Reference
 
 About Developer
+
 Selvakumar K
 
-Portfolio App
+More about developer
 
 https://play.google.com/store/apps/details?id=com.selvekumar.portfolio&hl=en
