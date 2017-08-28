@@ -15,7 +15,7 @@ Data Classes: for classes that do nothing but hold data, the compiler automatica
 And a lot more.
 For more informations check the Full Kotlin Reference
 
-About Developer
-Selvakumar K
-More about developer
+About Developer\n
+Selvakumar K\n
+More about developer\n
 https://play.google.com/store/apps/details?id=com.selvekumar.portfolio&hl=en
